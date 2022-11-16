@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="ir_filters_event_list_snippet" model="ir.filters">
+        <field name="inherit_id" ref="ir_filters_event_list_snippet"/>
+        <field name="sort">['date_begin desc']</field>
+    </record>
+</odoo>
